@@ -3,7 +3,6 @@ import react.Fragment
 import react.create
 import react.dom.client.createRoot
 import react.redux.Provider
-import redux.feature.Feature
 import redux.store.HelloWorldStore
 
 fun main() {

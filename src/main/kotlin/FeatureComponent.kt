@@ -1,14 +1,11 @@
-package redux.feature
-
-
 import react.ComponentClass
 import react.FC
 import react.Props
 import react.dom.html.ReactHTML.button
-import react.fc
 import react.redux.rConnect
 import redux.RAction
 import redux.WrapperAction
+import redux.feature.ChangeFlagOnFeature
 import redux.root.RootState
 import redux.utils.renderOn
 
