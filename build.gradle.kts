@@ -18,7 +18,7 @@ dependencies {
 }
 
 kotlin {
-    js(org.jetbrains.kotlin.gradle.plugin.KotlinJsCompilerType.LEGACY) {
+    js(org.jetbrains.kotlin.gradle.plugin.KotlinJsCompilerType.IR) {
         binaries.executable()
         browser {
             commonWebpackConfig {
