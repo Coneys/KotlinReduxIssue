@@ -1,0 +1,14 @@
+.idea/
+.gradle/
+**/build
+gradlew.bat
+**/.kotlintest
+build/*
+/build/
+/transferData/build/
+*.log
+out/
+docs/
+js/
+**/deployment/DeploymentUnit.kt
+kotlin-js-store
