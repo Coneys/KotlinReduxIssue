@@ -5,10 +5,9 @@ gradlew.bat
 **/.kotlintest
 build/*
 /build/
-/transferData/build/
 *.log
 out/
 docs/
 js/
-**/deployment/DeploymentUnit.kt
 kotlin-js-store
+/gradle/wrapper/gradle-wrapper.jar
