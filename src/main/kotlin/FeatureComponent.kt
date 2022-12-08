@@ -18,7 +18,7 @@ external interface FeatureDispatchProps : Props {
     var changeFlag: () -> Unit
 }
 
-interface FeatureProps : Props, FeatureStateProps, FeatureDispatchProps
+external interface FeatureProps : Props, FeatureStateProps, FeatureDispatchProps
 
 private val featureComponent = FC<FeatureProps> { props ->
 
