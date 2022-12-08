@@ -1,5 +1,6 @@
 package redux.store
 
+import kotlinx.js.jso
 import redux.feature.FeatureSlice
 import redux.root.RootState
 
@@ -12,7 +13,9 @@ object HelloWorldStore : ReduxStore<RootState>() {
     )
 
     override fun defaultState(): RootState {
-        return RootState()
+        return jso<RootState>{
+            featureState = FeatureSlice.State()
+        }
     }
 
 
